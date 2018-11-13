@@ -8,7 +8,7 @@ SECRET_KEY = config('SECRET_KEY')
 
 DEBUG = config('DEBUG', default=False, cast=bool)
 
-ALLOWED_HOSTS = ['localhost', 'estacionamento741.herokuapp.com']
+ALLOWED_HOSTS = ['localhost', 'https://estacionamentorotativo.herokuapp.com/']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
