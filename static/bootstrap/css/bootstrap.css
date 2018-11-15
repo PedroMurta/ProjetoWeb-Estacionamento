@@ -66,7 +66,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff;
+  background-color: rgba(144, 111, 167, 0.596);
 }
 
 [tabindex="-1"]:focus {
@@ -585,7 +585,7 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-  background-color: rgba(23, 23, 194, 0.691);
+  background-color: rgba(128, 211, 236, 0.691);
 }
 
 .row {
@@ -1534,11 +1534,11 @@ pre code {
 }
 
 .table tbody + tbody {
-  border-top: 2px solid #dee2e6;
+  border-top: 2px solid #747577;
 }
 
 .table .table {
-  background-color: #fff;
+  background-color: rgb(126, 123, 123);
 }
 
 .table-sm th,
@@ -1578,7 +1578,7 @@ pre code {
 .table-primary,
 .table-primary > th,
 .table-primary > td {
-  background-color: #b8daff;
+  background-color: #80858a;
 }
 
 .table-hover .table-primary:hover {

@@ -34,9 +34,9 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: #060607;
   text-align: left;
-  background-color: rgba(30, 145, 221, 0.596);
+  background-color: rgba(112, 207, 203, 0.596);
 }
 
 [tabindex="-1"]:focus {
