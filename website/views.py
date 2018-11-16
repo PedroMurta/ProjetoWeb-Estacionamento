@@ -10,3 +10,11 @@ def contato(request):
 
 def servicos(request):
     return render(request, 'website/servicos.html')
+
+
+def sobre(request):
+    return render(request, 'website/sobre.html')
+
+
+def plano(request):
+    return render(request, 'website/plano.html')

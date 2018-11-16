@@ -9,13 +9,13 @@
                     <a class="nav-link" href="/">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="{% url 'website_servicos' %}">Servicos</a>
+                    <a class="nav-link" href="{% url  'website_servicos' %}">Servicos</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="{% url  'website_sobre' %}">Sobre</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{% url  'website_plano' %}">Plano</a>
+                    <a class="nav-link active" href="{% url 'website_plano' %}">Plano</a>
                 </li>
                 <li class="nav-item">
                         <a class="nav-link" href="{% url  'website_contato' %}">Contatos</a>
@@ -48,11 +48,16 @@
 </div>
 
 <div class="row row-space">
-    <div class="col-6">
-        <img src="{% static 'img/car.jpeg' %}" alt="Minha imagem">
+    <div class="col-8">
+            <h4>  Vale a pena ou não essa economia?</h4>
+        <img src="{% static 'img/meme.jpg' %}" alt="Minha imagem">
     </div>
-    <div class="col-6">
-        <img src="{% static 'img/car.jpeg' %}" alt="Minha imagem">
+<div class="row row-space"></div>
+    <div class="col-4">                
+          <img src="{% static 'img/emoji2.jpg' %}" alt="Minha imagem">
+    </div>
+
+       
     </div>
 </div>
 {% endblock %}

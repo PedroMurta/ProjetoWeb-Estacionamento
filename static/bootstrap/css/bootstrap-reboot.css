@@ -36,7 +36,7 @@ body {
   line-height: 1.5;
   color: #060607;
   text-align: left;
-  background-color: rgba(112, 207, 203, 0.596);
+  background-color: #CAEBF2;
 }
 
 [tabindex="-1"]:focus {

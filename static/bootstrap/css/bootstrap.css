@@ -66,7 +66,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: rgba(144, 111, 167, 0.596);
+  background-color: rgba(77, 198, 219, 0.849);
 }
 
 [tabindex="-1"]:focus {
@@ -553,6 +553,7 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  background-color: #EFEFEF;
 }
 
 @media (min-width: 576px) {
@@ -585,7 +586,7 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-  background-color: rgba(128, 211, 236, 0.691);
+  background-color: rgba(216, 12, 12, 0.849);
 }
 
 .row {
@@ -593,8 +594,8 @@ pre code {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
+  margin-right: -5px;
+  margin-left: -5px;
 }
 
 .no-gutters {
@@ -1819,7 +1820,7 @@ pre code {
   color: #495057;
   background-color: #fff;
   background-clip: padding-box;
-  border: 1px solid #ced4da;
+  border: 1px solid #0d0d0e;
   border-radius: 0.25rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
