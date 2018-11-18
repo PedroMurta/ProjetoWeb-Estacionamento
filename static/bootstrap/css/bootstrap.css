@@ -64,9 +64,9 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: #EFEFEF;
   text-align: left;
-  background-color: rgba(77, 198, 219, 0.849);
+  background-color: #f8e80c;
 }
 
 [tabindex="-1"]:focus {
@@ -553,7 +553,7 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-  background-color: #EFEFEF;
+  background-color: rgb(12, 10, 10);
 }
 
 @media (min-width: 576px) {
@@ -586,7 +586,7 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-  background-color: rgba(216, 12, 12, 0.849);
+  background-color: rgb(1, 10, 20);
 }
 
 .row {
@@ -3936,7 +3936,7 @@ input[type="button"].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #007bff;
+  background-color: rgb(44, 121, 209);
 }
 
 .nav-fill .nav-item {
